@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body{
+    background-color: whitesmoke;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+ nav ul li{
+    padding: 0px 15px;
+ }
+.brand img{
+    width: 55px;
+    padding: 0px 5px;
+
+}
+.brand{
+     display: flex;
+     align-items: center;
+     font-weight: bolder;
+     font-size: 2rem;
+}
+.container{
+     min-height: 72vh;
+     background-color: black;
+     color: white;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     display: flex;
+     margin: 23px auto;
+     width: 70%;
+     border-radius: 12px;
+     padding: 34px;
+     background-image: url('newphoto.jpg.jpg');
+    }
+
+.bottom{
+    position: sticky;
+    background-color: black;
+    color: white;
+    height: 80px;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+.icons{
+    margin-top: 10px;
+}
+.icons i{
+    cursor: pointer;
+width: 50px;
+height: 5px;
+}
+
+/* #myprogressBar{
+    width: 80vw;
+    cursor: pointer;
+} */
+
+.songItemContainer{
+    margin-top: 80px;
+}
+
+.SongItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    
+    color: black;
+    margin: 13px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.SongItem img{
+    width: 35px;
+    margin: 0 23px;
+    border-radius: 10px;
+}
+.timestamp{
+    margin: 0 23px;
+ 
+}
+.timestamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    left: 10vw;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+} 
+@media only screen and (max-width: 1100px) {
+    body {
+      background-color: greenyellow;
+    }
+  }
